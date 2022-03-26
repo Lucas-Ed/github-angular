@@ -1,4 +1,5 @@
 # Desafio Angular GitHub API
+ ### Feito em conjunto com o grupo de estudos frontend.
 
 Sabemos a importância da aplicação se comunicar com APIs externas, muitas delas gratuitas, trazendo benefícios e informação adicional ao projeto.
 
@@ -16,13 +17,13 @@ Precisa mostrar na tela: (url: https://api.github.com/users/<nome_do_usuario>)
 
 ## Restrições
 
-- [ ] Somente utilizar um único componente (app.component.ts)
-- [ ] Utilizar estilo css próprio e pelo menos um componente do [Bootstrap](https://getbootstrap.com/) (já está importado o css no index.html)
-- [ ] Utilizar metodo fetch (asíncrono) para requisições HTTP
+- [X] Somente utilizar um único componente (app.component.ts)
+- [X] Utilizar estilo css próprio e pelo menos um componente do [Bootstrap](https://getbootstrap.com/) (já está importado o css no index.html)
+- [X] Utilizar metodo fetch (asíncrono) para requisições HTTP
 
 ## Features
 
-- [ ] Poder inserir um username do github para pesquisar
+- [X] Poder inserir um username do github para pesquisar
 - [ ] Clicar em um botão de busca (Search) para ter acesso a informação sobre o username
 - [ ] Ver o avatar, username, nome, quantidade de seguidores e repositórios públicos do username pesquisado
 - [ ] Ver os 4 repositórios mais recentes
