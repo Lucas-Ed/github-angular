@@ -82,8 +82,8 @@ export class AppComponent implements OnInit {
 }
 
 // limpa o array de usuários
-// clearUsers(): void {
-//   this.profiles = [];
-//   localStorage.removeItem('githubpagesdata')
-// }
+ clearUsers(): void {
+   this.profiles = [];
+   localStorage.removeItem('githubpagesdata')
+ }
 }

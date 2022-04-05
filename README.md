@@ -1,5 +1,5 @@
 # Desafio Angular GitHub API
- ### Feito em conjunto com o grupo de estudos frontend.
+ ### Desafio proposto pelo colega (Rafael)[https://github.com/rpaivabr]do grupo de estudos de frontend.
 
 Sabemos a importância da aplicação se comunicar com APIs externas, muitas delas gratuitas, trazendo benefícios e informação adicional ao projeto.
 
@@ -24,11 +24,10 @@ Precisa mostrar na tela: (url: https://api.github.com/users/<nome_do_usuario>)
 ## Features
 
 - [X] Poder inserir um username do github para pesquisar
-- [ ] Clicar em um botão de busca (Search) para ter acesso a informação sobre o username
-- [ ] Ver o avatar, username, nome, quantidade de seguidores e repositórios públicos do username pesquisado
+- [X] Clicar em um botão de busca (Search) para ter acesso a informação sobre o username
+- [X] Ver o avatar, username, nome, quantidade de seguidores e repositórios públicos do username pesquisado
 - [ ] Ver os 4 repositórios mais recentes
-- [ ] Receber uma notificação (alerta) se o usuário for inválido / inexistente
-
+- [X] Receber uma notificação (alerta) se o usuário for inválido / inexistenteX
 ## Extra Features
 
 - [ ] Mostrar uma lista de usuários pesquisados (ordenação por critério de sua preferência)
@@ -51,3 +50,8 @@ To get data from API you can check in javascript
 ## Projeto para Referência
 
 - [Stackblitz weather-angular](https://stackblitz.com/edit/angular-ivy-fepuhr?file=src%2Fapp%2Fapp.component.ts)
+
+### Visão do Layout final
+<a href="#">
+    <img src="img/projeto.png" alt="html" style="vertical-align:top; margin:6px 4px">
+  </a>

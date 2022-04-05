@@ -32,7 +32,7 @@
       class="btn btn-danger"
       type="button"
       id="button-addon2"
-      
+      (click)="clearUsers()"
       
     >
       Clear
@@ -57,7 +57,7 @@
         />
       </div>
       <div class="col-8 col-md-9 col-lg-10">
-        <div="card-title"> <h5>{{ profile.name }}</h5>
+        <div> <h5>{{ profile.name }}</h5>
           <p class="card-text">
             <a href="{{ profile.html_url }}">/{{profile.login}}</a>
           </p>
