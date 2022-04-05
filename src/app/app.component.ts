@@ -53,7 +53,7 @@ export class AppComponent implements OnInit {
   //---------------------------------------------------------------------------//
 
   /* alert */
-  searchProfile(value: string): void {
+  searchAlert(value: string): void {
     this.getProfileWithRepos(value)
       .then((profile) => console.log(profile))
       .catch((err) => {
@@ -70,4 +70,20 @@ export class AppComponent implements OnInit {
   handleSubmit(event: Event) {
     event.preventDefault();
   }
+
+  // handleKeyUp(event: Event){
+  //   if(event.key === 'Enter'){
+  //     this.searchProfile();
+  //   }
+  // }
+  // busca o usuário
+  searchUser(value: string) {
+    this.getProfileWithRepos(value).then(profile => this.profiles.push(profile)); 
+}
+
+// limpa o array de usuários
+// clearUsers(): void {
+//   this.profiles = [];
+//   localStorage.removeItem('githubpagesdata')
+// }
 }
