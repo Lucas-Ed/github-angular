@@ -1,5 +1,5 @@
 # Desafio Angular GitHub API
- ### Desafio proposto pelo colega (Rafael)[https://github.com/rpaivabr]do grupo de estudos de frontend.
+ ### Desafio proposto pelo colega (Rafael)(https://github.com/rpaivabr)do grupo de estudos de frontend.
 
 Sabemos a importância da aplicação se comunicar com APIs externas, muitas delas gratuitas, trazendo benefícios e informação adicional ao projeto.
 
