@@ -27,9 +27,15 @@ type Repo = {
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
+
+
+
 export class AppComponent implements OnInit {
   profiles: Profile[] = [];
   showError: boolean = false;
+
+  // BtnDisabled = false;
+  // searchuser = '';
 
   //------------------------------Fetch-------------------------------------------//
   ngOnInit(): void {
@@ -86,4 +92,11 @@ export class AppComponent implements OnInit {
    this.profiles = [];
    localStorage.removeItem('githubpagesdata')
  }
+ /* habilita o button search */
+//  handleSearchChange(event: any) {
+//   this.searchuser = event.target.value.trim();
+//   const disableSearchButton = !this.searchCity;
+//   this.searchBtnDisabled = disableSearchButton;
+// }
+
 }

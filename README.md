@@ -1,5 +1,5 @@
 # Desafio Angular GitHub API
- ### Desafio proposto pelo colega [Rafael](https://github.com/rpaivabr)do grupo de estudos de frontend.
+ ### Desafio 1° proposto pelo colega [Rafael](https://github.com/rpaivabr)do grupo de estudos de frontend.
 
 Sabemos a importância da aplicação se comunicar com APIs externas, muitas delas gratuitas, trazendo benefícios e informação adicional ao projeto.
 
@@ -55,3 +55,5 @@ To get data from API you can check in javascript
 <a href="#">
     <img src="img/projeto.png" alt="html" style="vertical-align:top; margin:6px 4px">
   </a>
+
+  ### Você pode ver o projeto [aqui.](https://bit.ly/36Wk5UB)
