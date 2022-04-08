@@ -56,4 +56,4 @@ To get data from API you can check in javascript
     <img src="img/projeto.png" alt="html" style="vertical-align:top; margin:6px 4px">
   </a>
 
-  ### Você pode ver o projeto [aqui.](https://bit.ly/36Wk5UB)
+  ### Você pode ver o projeto [aqui.](https://github-angular-dnfr8bolp-lucas-ed.vercel.app/)
